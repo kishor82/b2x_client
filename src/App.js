@@ -57,7 +57,7 @@ function App() {
             </CButton>
           </div>
           <div className="item result__container">
-            <CAccordion alwaysOpen activeItemKey={0}>
+            <CAccordion alwaysOpen activeItemKey={1}>
               {results.map((result, i) => (
                 <CAccordionItem itemKey={i}>
                   <CAccordionHeader>{result.jobNumber} </CAccordionHeader>
